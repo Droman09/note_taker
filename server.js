@@ -17,7 +17,7 @@ fs.readFile("db/db.json", "utf8", (err, data) => {
     if (err) throw err;
     var notes = JSON.parse(data);
 
-    //API's routes ---------------------------
+    //API routes ---------------------------
 
     app.get("/api/notes", (req, res) => {
         res.json(notes);
