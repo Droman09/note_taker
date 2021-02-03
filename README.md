@@ -18,7 +18,7 @@ This application can be used to write, save, and delete notes. It will use an ex
  `package.json` is a document that would let you know what dependencies is required to make this app work. On your terminal, make sure that you select `server.js` then type in `npm install` to retrieve all dependencies.
 
 ## Usage
-![GIF]() 
+![GIF](note_taker_video.gif) 
 
 ## Technologies
     HTML
